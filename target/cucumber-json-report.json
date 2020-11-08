@@ -1,0 +1,875 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Pre-condition is same for all three tasks. user is on the-internet.herokuapp.com",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2171328923,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on the-internet.herokuapp.com",
+            "match": {
+              "location": "FormAuthenticationSteps.user_is_on_the_internet_herokuapp_com()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 7574630874,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setup()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "Example-2  “Hello World” message appears after the loading bar disappears",
+        "description": "",
+        "id": "dynamic-loading-example-1-and-2-with-\"hello-world\"-message-after-loading-bar-disappears;example-2--“hello-world”-message-appears-after-the-loading-bar-disappears",
+        "after": [
+          {
+            "result": {
+              "duration": 2681928043,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 492119294,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user clicks on Dynamic Loading tab",
+            "match": {
+              "location": "DynamicLoadingSteps.user_clicks_on_Dynamic_Loading_tab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 263127241,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user clicks on Example 2: Element rendered after the fact",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 23
+                }
+              ],
+              "location": "DynamicLoadingSteps.user_clicks_on_Example_Element_rendered_after_the_fact(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 71585327,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user clicks on Start",
+            "match": {
+              "location": "DynamicLoadingSteps.user_clicks_on_Start()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6511456509,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user should be able to see “Hello World” message after the loading bar disappears",
+            "match": {
+              "location": "DynamicLoadingSteps.user_should_be_able_to_see_Hello_World_message_after_the_loading_bar_disappears()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Pre-condition is same for all three tasks. user is on the-internet.herokuapp.com",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2038317790,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on the-internet.herokuapp.com",
+            "match": {
+              "location": "FormAuthenticationSteps.user_is_on_the_internet_herokuapp_com()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 8549045199,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setup()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Example-1 “Hello World” message appears after the loading bar disappears",
+        "description": "",
+        "id": "dynamic-loading-example-1-and-2-with-\"hello-world\"-message-after-loading-bar-disappears;example-1-“hello-world”-message-appears-after-the-loading-bar-disappears",
+        "after": [
+          {
+            "result": {
+              "duration": 2690907318,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 649858285,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user clicks on Dynamic Loading tab",
+            "match": {
+              "location": "DynamicLoadingSteps.user_clicks_on_Dynamic_Loading_tab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 404835843,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user clicks on Example 1: Element on page that is hidden",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 23
+                }
+              ],
+              "location": "DynamicLoadingSteps.user_clicks_on_Example_Element_on_page_that_is_hidden(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 87773081,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user clicks on Start",
+            "match": {
+              "location": "DynamicLoadingSteps.user_clicks_on_Start()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6392641681,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user should be able to see “Hello World” message after the loading bar disappears",
+            "match": {
+              "location": "DynamicLoadingSteps.user_should_be_able_to_see_Hello_World_message_after_the_loading_bar_disappears()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Dynamic Loading example 1 and 2 with \"Hello World\" message after loading bar disappears",
+    "description": "",
+    "id": "dynamic-loading-example-1-and-2-with-\"hello-world\"-message-after-loading-bar-disappears",
+    "keyword": "Feature",
+    "uri": "DynamicLoading.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6769669480,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setup()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Form Authentication with valid login details",
+        "description": "",
+        "id": "form-authentication-(verify-successful-login-by-valid-credential);form-authentication-with-valid-login-details",
+        "after": [
+          {
+            "result": {
+              "duration": 2654855514,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2028988290,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on the-internet.herokuapp.com",
+            "match": {
+              "location": "FormAuthenticationSteps.user_is_on_the_internet_herokuapp_com()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 946764930,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user clicks on Form Authentication tab",
+            "match": {
+              "location": "FormAuthenticationSteps.user_clicks_on_Form_Authentication_tab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 678195729,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user provides valid username and password on login page",
+            "match": {
+              "location": "FormAuthenticationSteps.user_provides_valid_username_and_password_on_login_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1345234715,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user should be able to securely login to their account",
+            "match": {
+              "location": "FormAuthenticationSteps.user_should_be_able_to_securely_login_to_their_account()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 8860179363,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setup()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "Form Authentication with invalid login details",
+        "description": "",
+        "id": "form-authentication-(verify-successful-login-by-valid-credential);form-authentication-with-invalid-login-details;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 2617838560,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2032100119,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user is on the-internet.herokuapp.com",
+            "match": {
+              "location": "FormAuthenticationSteps.user_is_on_the_internet_herokuapp_com()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 951807914,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user clicks on Form Authentication tab",
+            "match": {
+              "location": "FormAuthenticationSteps.user_clicks_on_Form_Authentication_tab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 693508135,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user types invalid \"tomsmith123\" and \"12345\" on login page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "tomsmith123",
+                  "offset": 20
+                },
+                {
+                  "val": "12345",
+                  "offset": 38
+                }
+              ],
+              "location": "FormAuthenticationSteps.user_types_invalid_and_on_login_page(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 52252387,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user should be able to see error message",
+            "match": {
+              "location": "FormAuthenticationSteps.user_should_be_able_to_see_error_message()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5838914413,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setup()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Form Authentication with invalid login details",
+        "description": "",
+        "id": "form-authentication-(verify-successful-login-by-valid-credential);form-authentication-with-invalid-login-details;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 2625906993,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2037886317,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user is on the-internet.herokuapp.com",
+            "match": {
+              "location": "FormAuthenticationSteps.user_is_on_the_internet_herokuapp_com()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 726726922,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user clicks on Form Authentication tab",
+            "match": {
+              "location": "FormAuthenticationSteps.user_clicks_on_Form_Authentication_tab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 795469395,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user types invalid \"TomSmith\" and \"SuperSecretPassword!\" on login page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "TomSmith",
+                  "offset": 20
+                },
+                {
+                  "val": "SuperSecretPassword!",
+                  "offset": 35
+                }
+              ],
+              "location": "FormAuthenticationSteps.user_types_invalid_and_on_login_page(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 44993021,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user should be able to see error message",
+            "match": {
+              "location": "FormAuthenticationSteps.user_should_be_able_to_see_error_message()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 9760368202,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setup()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "Form Authentication with invalid login details",
+        "description": "",
+        "id": "form-authentication-(verify-successful-login-by-valid-credential);form-authentication-with-invalid-login-details;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 2694726012,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2023185415,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user is on the-internet.herokuapp.com",
+            "match": {
+              "location": "FormAuthenticationSteps.user_is_on_the_internet_herokuapp_com()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3218722632,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user clicks on Form Authentication tab",
+            "match": {
+              "location": "FormAuthenticationSteps.user_clicks_on_Form_Authentication_tab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4052216040,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user types invalid \"\" and \"\" on login page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 20
+                },
+                {
+                  "val": "",
+                  "offset": 27
+                }
+              ],
+              "location": "FormAuthenticationSteps.user_types_invalid_and_on_login_page(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 41426199,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user should be able to see error message",
+            "match": {
+              "location": "FormAuthenticationSteps.user_should_be_able_to_see_error_message()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Form Authentication (verify successful login by valid credential)",
+    "description": "",
+    "id": "form-authentication-(verify-successful-login-by-valid-credential)",
+    "keyword": "Feature",
+    "uri": "FormAuthentication.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Pre-condition is same for all three tasks. user is on the-internet.herokuapp.com",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2019537344,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on the-internet.herokuapp.com",
+            "match": {
+              "location": "FormAuthenticationSteps.user_is_on_the_internet_herokuapp_com()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 8394338926,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setup()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "Click for JS Confirm: click the buttons on the alert and check that a relevant message appears",
+        "description": "",
+        "id": "click-the-alert-buttons-and-check-the-relevant-message-appears;click-for-js-confirm:-click-the-buttons-on-the-alert-and-check-that-a-relevant-message-appears",
+        "after": [
+          {
+            "result": {
+              "duration": 2718794473,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 422244040,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user clicks on JavaScripts Alerts tab",
+            "match": {
+              "location": "JavaScriptAlertsSteps.user_clicks_on_JavaScripts_Alerts_tab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2089179114,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user clicks on alert \u0027Click for JS Confirm\u0027",
+            "match": {
+              "location": "JavaScriptAlertsSteps.user_clicks_on_alert_Click_for_JS_Confirm()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5732317,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user should be able to see \u0027I am a JS Confirm\u0027 message in popup window",
+            "match": {
+              "location": "JavaScriptAlertsSteps.user_should_be_able_to_see_I_am_a_JS_Confirm_alert_message_on_popup_window()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Pre-condition is same for all three tasks. user is on the-internet.herokuapp.com",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2035948747,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on the-internet.herokuapp.com",
+            "match": {
+              "location": "FormAuthenticationSteps.user_is_on_the_internet_herokuapp_com()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 11783337667,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setup()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Click on \u0027Click for JS Alert\u0027 and check a relevant message",
+        "description": "",
+        "id": "click-the-alert-buttons-and-check-the-relevant-message-appears;click-on-\u0027click-for-js-alert\u0027-and-check-a-relevant-message",
+        "after": [
+          {
+            "result": {
+              "duration": 2762369489,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 710005918,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user clicks on JavaScripts Alerts tab",
+            "match": {
+              "location": "JavaScriptAlertsSteps.user_clicks_on_JavaScripts_Alerts_tab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2115209947,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user clicks on \u0027Click for JS Alert\u0027",
+            "match": {
+              "location": "JavaScriptAlertsSteps.user_clicks_on_Click_for_JS_Alert()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4364771,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user should be able to see \u0027I am a JS Alert\u0027 message in popup window",
+            "match": {
+              "location": "JavaScriptAlertsSteps.user_should_be_able_to_see_I_am_a_JS_Alert_message_on_popup_window()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Pre-condition is same for all three tasks. user is on the-internet.herokuapp.com",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2037057578,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on the-internet.herokuapp.com",
+            "match": {
+              "location": "FormAuthenticationSteps.user_is_on_the_internet_herokuapp_com()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 8260980562,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setup()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "Click on \u0027Click for JS Prompt\u0027 and check a relevant message",
+        "description": "",
+        "id": "click-the-alert-buttons-and-check-the-relevant-message-appears;click-on-\u0027click-for-js-prompt\u0027-and-check-a-relevant-message",
+        "after": [
+          {
+            "result": {
+              "duration": 2898558732,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 641338279,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user clicks on JavaScripts Alerts tab",
+            "match": {
+              "location": "JavaScriptAlertsSteps.user_clicks_on_JavaScripts_Alerts_tab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2106238368,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user clicks on \u0027Click for JS Prompt\u0027",
+            "match": {
+              "location": "JavaScriptAlertsSteps.user_clicks_on_Click_for_JS_Prompt()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4182175,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user should be able to see \u0027I am a JS Prompt\u0027 message and text box in popup window",
+            "match": {
+              "location": "JavaScriptAlertsSteps.user_should_be_able_to_see_I_am_a_JS_Prompt_message_and_text_box_in_popup_window()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Click the alert buttons and check the relevant message appears",
+    "description": "",
+    "id": "click-the-alert-buttons-and-check-the-relevant-message-appears",
+    "keyword": "Feature",
+    "uri": "JavaScriptAlerts.feature"
+  }
+]
